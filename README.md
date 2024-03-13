@@ -1,2 +1,2 @@
 # PortfolioTecnico
-Neste repositório será posto todas as atividades do técnico.
+Neste repositório será posto as atividades do técnico.
