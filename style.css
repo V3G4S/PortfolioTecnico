@@ -1,6 +1,12 @@
 body {
-    background-color: pink;
+   background: linear-gradient(to left, pink, white, turquoise);
 }
-.titulo{
+.intro {
+    text-align: center;
+}
+.autor {
+    text-align: center;
+}
+.recep {
     text-align: center;
 }
