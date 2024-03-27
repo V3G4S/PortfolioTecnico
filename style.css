@@ -1,12 +1,13 @@
-body {
-   background: linear-gradient(to left, pink, white, turquoise);
+body{
+   background: linear-gradient(to right, cornflowerblue, pink);
 }
-.intro {
-    text-align: center;
+.esquerda{
+    color: white;
 }
-.autor {
-    text-align: center;
-}
-.recep {
-    text-align: center;
+.section{
+     height: 70vh;
+    border-bottom: 6px solid white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 60px;
 }

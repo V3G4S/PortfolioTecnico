@@ -6,11 +6,36 @@
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         header {
             display: flex;
-            width: 80vw;
             justify-content: space-between;
             padding: 20px 60px;
+            background-color: white;
+        }
+        header ul{
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+        header a{
+            text-decoration: none;
+            color: pink;
+        }
+        .intro{
+            color: cornflowerblue;
+        }
+        .direita img{
+            width: 70%;
+            border-radius: 50px;
+            box-shadow: 20px 20px 20px black;
+        }
+        .direita, .esquerda{
+            width: 50vw;
+            padding: 100px;
         }
     </style>
 </head>
@@ -20,22 +45,21 @@
     <div class="intro">
         <h1>Portfólio Técnico</h1>
     </div>
-    <nav>
+        <nav>
         <ul>
-            <div class="lproj">
-            <a href="#projetos">Projetos</a>
-            </div>
-            <div class="labout">
-            <a href="#sobre">Sobre mim</a>
-            </div>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#sobre">Sobre mim</a></li>
+            <li><a href="#home">Home</a></li>
         </ul>
-    </nav>
+        </nav>
 </header>
-    <div class="autor">
-    <p><i>By: Antony Valentim</i></p>
+<div class="section" id="#home">
+    <div class="esquerda">
+        <h1><u>Seja bem vindo(a) ao meu portfólio de Desenvolvimento de Sistemas!</u></h1>
+        <p><i>By: Antony Valentim</i></p>
     </div>
-    <div class="recep">
-    <h1><u>Seja bem vindo(a) ao meu portfólio!</u></h1>
+    <div class="direita">
+        <img src="https://i.pinimg.com/564x/4e/d0/7c/4ed07c9f712a01839d8c9b55b0f258dd.jpg" alt="Falha ao carregar imagem">
     </div>
 </main>
 </body>
